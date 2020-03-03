@@ -5,5 +5,13 @@
  */
 
 module.exports = {
-  /* Your site config here */
-}
+  plugins: [
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-less`,
+      options: {
+        javascriptEnabled: true,
+      },
+    },
+  ],
+};
