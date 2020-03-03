@@ -1,0 +1,22 @@
+.container {
+  margin: 1em 3.5em;
+  height: 100%;
+  background-color: #fff;
+}
+
+.crop {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+img {
+  display: inline;
+  margin: 0 auto;
+}
+
+.red {
+  color: red;
+}
