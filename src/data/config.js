@@ -11,7 +11,7 @@ module.exports = {
     linkedin: 'https://www.linkedin.com/in/sai-somanath-komanduri-a9a86610a/',
     instagram: 'https://instagram.com/saisk08',
   },
-  googleAnalyticsID: 'UA-88875900-4',
+  googleAnalyticsID: 'UA-165283129-1',
   themeColor: '#00b0ff',
   backgroundColor: '#00b0ff',
   social: {
