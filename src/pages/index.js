@@ -7,6 +7,7 @@ export default () => (
   <Layout>
     <SEO />
     <Intro />
+    <Skills />
     <Footer />
   </Layout>
 );
