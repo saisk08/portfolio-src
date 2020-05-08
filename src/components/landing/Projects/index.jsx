@@ -1,119 +1,49 @@
 import React from 'react';
 import { Container, Card } from 'components/common';
-import starIcon from 'assets/icons/star.svg';
-import forkIcon from 'assets/icons/fork.svg';
-import { Wrapper, Grid, Item, Content, Stats } from './styles';
+import { Wrapper, Grid, Item, Content } from './styles';
 
 export const Projects = () => (
   <Wrapper as={Container} id="projects">
     <h2>Projects</h2>
     <Grid>
-      <Item key={0} as="a" href="#" target="_blank" rel="noopener noreferrer">
+      <Item key={0} as="a" href="https://github.com/saisk08/tttxttt" target="_blank" rel="noopener noreferrer">
         <Card>
           <Content>
-            <h4>Test</h4>
-            <p>Test</p>
+            <h4>tttxttt</h4>
+            <p>A react version of the extended tic tac toe game</p>
           </Content>
-          <Stats>
-            <div>
-              <img src={starIcon} alt="stars" />
-              <span>{0}</span>
-            </div>
-            <div>
-              <img src={forkIcon} alt="forks" />
-              <span>{1}</span>
-            </div>
-          </Stats>
         </Card>
       </Item>
-      <Item key={1} as="a" href="#" target="_blank" rel="noopener noreferrer">
+      <Item key={1} as="a" href="https://github.com/SCIS-SysAdmin/Hermes" target="_blank" rel="noopener noreferrer">
         <Card>
           <Content>
-            <h4>Test</h4>
-            <p>Test</p>
+            <h4>Hermes</h4>
+            <p>A web application for lab submission</p>
           </Content>
-          <Stats>
-            <div>
-              <img src={starIcon} alt="stars" />
-              <span>{0}</span>
-            </div>
-            <div>
-              <img src={forkIcon} alt="forks" />
-              <span>{1}</span>
-            </div>
-          </Stats>
         </Card>
       </Item>
-      <Item key={2} as="a" href="#" target="_blank" rel="noopener noreferrer">
+      <Item key={2} as="a" href="https://github.com/saisk08/Pomodoro_clock" target="_blank" rel="noopener noreferrer">
         <Card>
           <Content>
-            <h4>Test</h4>
-            <p>Test</p>
+            <h4>Pomodoro Clock</h4>
+            <p>Pomodoro clock in web web application</p>
           </Content>
-          <Stats>
-            <div>
-              <img src={starIcon} alt="stars" />
-              <span>{0}</span>
-            </div>
-            <div>
-              <img src={forkIcon} alt="forks" />
-              <span>{1}</span>
-            </div>
-          </Stats>
         </Card>
       </Item>
-      <Item key={3} as="a" href="#" target="_blank" rel="noopener noreferrer">
+      <Item key={3} as="a" href="https://github.com/saisk08/GameOfCards" target="_blank" rel="noopener noreferrer">
         <Card>
           <Content>
-            <h4>Test</h4>
-            <p>Test</p>
+            <h4>Game of Cards</h4>
+            <p>A client server application that lets many clients play a card game together.</p>
           </Content>
-          <Stats>
-            <div>
-              <img src={starIcon} alt="stars" />
-              <span>{0}</span>
-            </div>
-            <div>
-              <img src={forkIcon} alt="forks" />
-              <span>{1}</span>
-            </div>
-          </Stats>
         </Card>
       </Item>
-      <Item key={4} as="a" href="#" target="_blank" rel="noopener noreferrer">
+      <Item key={4} as="a" href="https://github.com/rajubapi/NN-Notes" target="_blank" rel="noopener noreferrer">
         <Card>
           <Content>
-            <h4>Test</h4>
-            <p>Test</p>
+            <h4>NN Notes</h4>
+            <p>A blog for Neural Networks</p>
           </Content>
-          <Stats>
-            <div>
-              <img src={starIcon} alt="stars" />
-              <span>{0}</span>
-            </div>
-            <div>
-              <img src={forkIcon} alt="forks" />
-              <span>{1}</span>
-            </div>
-          </Stats>
-        </Card>
-      </Item>
-      <Item key={5} as="a" href="#" target="_blank" rel="noopener noreferrer">
-        <Card>
-          <Content>
-            <h4>Test</h4>
-            <p>Test</p>
-          </Content>
-          <Stats>
-            <div>
-              <img src={starIcon} alt="stars" />
-              <span>{0}</span>
-            </div>
-            <div>
-              <img src={forkIcon} alt="forks" />
-              <span>{1}</span>
-            </div>
-          </Stats>
         </Card>
       </Item>
     </Grid>
