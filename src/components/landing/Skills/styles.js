@@ -1,9 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  background-size: contain;
-  background-position: left top;
-  background-repeat: no-repeat;
+  padding-bottom: 10rem;
 `;
 
 export const SkillsWrapper = styled.div`
