@@ -1,10 +1,7 @@
 import styled from 'styled-components';
-import overlayIllustration from 'assets/illustrations/overlay.svg';
 
 export const Wrapper = styled.div`
-  background-size: contain;
-  background-position: right top;
-  background-repeat: no-repeat;
+  padding-bottom: 9rem;
 `;
 
 export const IntroWrapper = styled.div`
