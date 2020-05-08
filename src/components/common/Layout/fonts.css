@@ -26,3 +26,11 @@
     url('./fonts/roboto-v18-latin-700.ttf') format('truetype'),
     url('./fonts/roboto-v18-latin-700.svg#Roboto') format('svg');
 }
+
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-display: fallback;
+  font-weight: 400;
+  src: url('./fonts/Nunito-Regular.ttf');
+}
