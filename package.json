@@ -65,9 +65,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:smakosh/gatsby-portfolio-dev.git"
-  },
-  "bugs": {
-    "url": "https://github.com/smakosh/gatsby-portfolio-dev/issues"
+    "url": "git@github.com:saisk08/portfolio-src.git"
   }
 }
